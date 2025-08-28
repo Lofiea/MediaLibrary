@@ -61,7 +61,7 @@ public class Song {
         String str;
         str = "Title:    " + title  + "\n" +
               "Rating:  " + rating + "\n" +
-              "Price: $ " + price + "\n" +
+              "Price: $ " + String.format("%.2f", price) + "\n" +
               "Favorite:  " + favorite;
               return str;
     }
